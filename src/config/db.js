@@ -1,14 +1,11 @@
+import 'dotenv/config'
 import pg from 'pg'
-import Dotenv from 'dotenv'
 
-Dotenv.config();
+const { Pool } = pg
 
-const (Pool) = pg;
+const pool = new Pool()
 
-const Pool = new Pool({
-
-    
-});
+export default pool
 
  
 

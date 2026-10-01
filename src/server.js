@@ -1,5 +1,8 @@
 import express from 'express';
+import Dotenv from 'dotenv';
 import veiculosroutes from './routes/veiculos.routes';
+
+Dotenv.config();
 
 const app = express()
 const port = 3000
